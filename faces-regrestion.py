@@ -14,7 +14,7 @@ for name in os.listdir(faces_dir):
     known_faces.append(face_encoding)
 
 # Initialize the camera using RTSP URL
-url = "rtsp://username:password@IP_address:port/cam/realmonitor?channel=1&subtype=0"
+url = "..." #link rstp
 cap = cv2.VideoCapture(url)
 
 while True:
